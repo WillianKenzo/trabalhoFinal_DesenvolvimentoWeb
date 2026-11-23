@@ -18,6 +18,11 @@ footer {
     padding-right: 20px;
 }
 
+a {
+    color:  rgb(188, 188, 202);
+    text-decoration: none;
+}
+
 .redes-sociais {
     display: flex;
     gap: 20px;
