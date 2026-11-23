@@ -542,3 +542,14 @@ h1 {
     background: rgb(125, 125, 148);
     color: white;
 }
+
+#linksPaginas a {
+    transition: 0.3s;
+}
+
+#linksPaginas a:hover,
+#linksPaginas a.pagina-atual {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
