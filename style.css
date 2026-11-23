@@ -1,0 +1,518 @@
+body {
+    background: linear-gradient(to right, black, #000033);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(125, 125, 148);
+}
+
+#linksPaginas {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    margin-top: 15px;
+    padding-right: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: rgb(125, 125, 148);
+    display: flex;
+    gap: 8px;
+}
+
+.redes-sociais i {
+    font-size: 20px;
+    color: rgb(125, 125, 148);
+}
+
+span {
+    color: rgb(125, 125, 148);
+}
+
+h1 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: rgb(125, 125, 148);
+}
+
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: solid;
+    padding: 30px;
+    border-color: rgb(125, 125, 148);
+    width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.apresentacao:hover {
+    border-color: white;
+    transform: scale(1.02);
+}
+
+.sobre-mim:hover {
+    border-color: white;
+    transform: scale(1.02);
+}
+
+.habilidades-tecnicas:hover {
+    border-color: white;
+    transform: scale(1.02);
+}
+
+.npi:hover {
+    border-color: white;
+    transform: scale(1.02);
+}
+
+.londrinenseTech:hover {
+    border-color: white;
+    transform: scale(1.02);
+}
+
+.pensamentoComputacional:hover {
+    border-color: white;
+    transform: scale(1.02);
+}
+
+.greentech:hover {
+    border-color: white;
+    transform: scale(1.02);
+}
+
+.retailtech:hover {
+    border-color: white;
+    transform: scale(1.02);
+}
+
+#resumo {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(125, 125, 148);
+    gap: 50px;
+}
+
+#resumo p {
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.apresentacao img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.sobre-mim {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: solid;
+    padding: 30px;
+    border-color: rgb(125, 125, 148);
+    width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: rgb(125, 125, 148);
+}
+
+.habilidades-tecnicas {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: solid;
+    padding: 30px;
+    border-color: rgb(125, 125, 148);
+    width: 50%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: rgb(125, 125, 148);
+}
+
+.habilidades-tecnicas ul {
+    padding-left: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.habilidades-tecnicas h2 {
+    padding-left: 20px;
+}
+
+.interesses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    padding: 30px;
+    border-color: rgb(125, 125, 148);
+    width: 50%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: rgb(125, 125, 148);
+}
+
+.interesses table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.interesses caption {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.interesses th,
+.interesses td {
+    padding: 12px;
+}
+
+.npi {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: solid;
+    padding: 30px;
+    border-color: rgb(125, 125, 148);
+    width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: rgb(125, 125, 148);
+}
+
+.npi img {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#resumoNPI {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(125, 125, 148);
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.londrinenseTech {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: solid;
+    padding: 30px;
+    border-color: rgb(125, 125, 148);
+    width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: rgb(125, 125, 148);
+}
+
+.londrinenseTech img {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#resumoLT {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(125, 125, 148);
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.pensamentoComputacional {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: solid;
+    padding: 30px;
+    border-color: rgb(125, 125, 148);
+    width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: rgb(125, 125, 148);
+}
+
+.pensamentoComputacional img {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#resumoPC {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(125, 125, 148);
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.greentech {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: solid;
+    padding: 30px;
+    border-color: rgb(125, 125, 148);
+    width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: rgb(125, 125, 148);
+}
+
+.greentech img {
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+#resumoGT {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(125, 125, 148);
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.retailtech {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: solid;
+    padding: 30px;
+    border-color: rgb(125, 125, 148);
+    width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: rgb(125, 125, 148);
+}
+
+.retailtech img {
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+#resumoRT {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(125, 125, 148);
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+
+    .apresentacao,
+    .npi,
+    .londrinenseTech,
+    .pensamentoComputacional,
+    .greentech {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .apresentacao img,
+    .npi img,
+    .londrinenseTech img,
+    .pensamentoComputacional img,
+    .greentech img {
+        width: 45%;
+        height: 350px;
+    }
+
+    #resumo,
+    #resumoNPI,
+    #resumoLT,
+    #resumoPC,
+    #resumoGT {
+        width: 55%;
+        font-size: 18px;
+    }
+
+    .sobre-mim {
+        padding: 20px;
+    }
+
+    .habilidades-tecnicas,
+    .interesses {
+        width: 75%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #linksPaginas {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .apresentacao,
+    .npi,
+    .londrinenseTech,
+    .pensamentoComputacional,
+    .greentech {
+        flex-direction: column;
+        width: 95%;
+        padding: 20px;
+    }
+
+    .apresentacao img,
+    .npi img,
+    .londrinenseTech img,
+    .pensamentoComputacional img,
+    .greentech img {
+        width: 100%;
+        height: auto;
+    }
+
+    #resumo,
+    #resumoNPI,
+    #resumoLT,
+    #resumoPC,
+    #resumoGT {
+        width: 100%;
+        font-size: 16px;
+        gap: 15px;
+    }
+
+    .sobre-mim {
+        flex-direction: column;
+        width: 95%;
+        padding: 20px;
+    }
+
+    .sobre-mim p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .habilidades-tecnicas,
+    .interesses {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .interesses table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .interesses th,
+    .interesses td {
+        padding: 8px 4px;
+    }
+
+    .redes-sociais {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 30px 10px;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 13px;
+    }
+}
+
+h1 {
+    animation: aparecer 1.5s ease;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#botao-sobre {
+    padding: 10px 20px;
+    border: 1px solid rgb(125, 125, 148);
+    border-radius: 8px;
+    background: transparent;
+    color: rgb(125, 125, 148);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#botao-sobre:hover {
+    background: rgb(125, 125, 148);
+    color: white;
+}
