@@ -19,7 +19,7 @@ footer {
 }
 
 a {
-    color:  rgb(188, 188, 202);
+    color: rgb(188, 188, 202);
     text-decoration: none;
 }
 
@@ -381,7 +381,8 @@ h1 {
     .npi,
     .londrinenseTech,
     .pensamentoComputacional,
-    .greentech {
+    .greentech,
+    .retailtech {
         gap: 20px;
         padding: 20px;
     }
@@ -390,7 +391,8 @@ h1 {
     .npi img,
     .londrinenseTech img,
     .pensamentoComputacional img,
-    .greentech img {
+    .greentech img,
+    .retailtech img {
         width: 45%;
         height: 350px;
     }
@@ -399,7 +401,8 @@ h1 {
     #resumoNPI,
     #resumoLT,
     #resumoPC,
-    #resumoGT {
+    #resumoGT,
+    #resumoRT {
         width: 55%;
         font-size: 18px;
     }
@@ -432,7 +435,8 @@ h1 {
     .npi,
     .londrinenseTech,
     .pensamentoComputacional,
-    .greentech {
+    .greentech,
+    .retailtech {
         flex-direction: column;
         width: 95%;
         padding: 20px;
@@ -442,7 +446,8 @@ h1 {
     .npi img,
     .londrinenseTech img,
     .pensamentoComputacional img,
-    .greentech img {
+    .greentech img,
+    .retailtech img {
         width: 100%;
         height: auto;
     }
@@ -451,7 +456,8 @@ h1 {
     #resumoNPI,
     #resumoLT,
     #resumoPC,
-    #resumoGT {
+    #resumoGT,
+    #resumoRT {
         width: 100%;
         font-size: 16px;
         gap: 15px;
@@ -470,9 +476,19 @@ h1 {
 
     .habilidades-tecnicas,
     .interesses {
+        flex-direction: column;
+        align-items: flex-start;
         width: 95%;
-        padding: 15px;
+        padding: 20px;
     }
+
+    .habilidades-tecnicas h2 {
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    
 
     .interesses table {
         width: 100%;
