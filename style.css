@@ -79,6 +79,11 @@ h1 {
     transform: scale(1.02);
 }
 
+.interesses:hover {
+    border-color: white;
+    transform: scale(1.02);
+}
+
 .npi:hover {
     border-color: white;
     transform: scale(1.02);
